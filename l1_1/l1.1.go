@@ -61,4 +61,7 @@ func main() {
 		PerformPeriodYears: 3,
 	}
 	fmt.Printf("performed %d times\n", a.TimesPerformed())
+
+	// Action имеет методы Human
+	fmt.Println(a.String())
 }
